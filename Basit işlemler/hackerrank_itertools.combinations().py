@@ -1,3 +1,5 @@
+# python
+
 from itertools import combinations
 
 s = list(input().split())
