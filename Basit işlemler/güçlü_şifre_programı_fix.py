@@ -1,3 +1,5 @@
+# python islemlerim
+
 import random
 
 print("""
