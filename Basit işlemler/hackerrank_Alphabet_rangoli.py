@@ -19,7 +19,7 @@ while True:
         end_list.append('-'.join(list_1).center(len_list*2-1, '-'))
         break
     # print('-'.join(list_1).center(len_list*2, '-'))
-    end_list.append('-'.join(list_1).center(len_list*2-1, '-'))
+    end_list.append('-'.join(list_1).center(len_list*2-1, '-'))  # burasi onemmli
     list_1.pop(len(list_1) // 2)
     list_1.pop(len(list_1) // 2 - 1)
 for i in end_list[::-1]:
