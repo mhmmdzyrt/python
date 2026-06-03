@@ -1,3 +1,5 @@
+# python
+
 sorted_string = sorted(input())
 string_number = []
 string_upper = []
