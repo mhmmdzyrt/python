@@ -12,7 +12,7 @@ Programdan çıkmaz için "q"'ya basmanız yeterli.
 """)
 entry = input('Kaç Şifre Oluşturulsun: ')
 
-password = ""
+password = ""  # burasi onemmli
 
 while True:
     if entry.isdigit():
