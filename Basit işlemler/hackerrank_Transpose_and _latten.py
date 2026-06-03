@@ -1,3 +1,5 @@
+# python
+
 import numpy
 N, M = list(map(int, input().split()))
 arr = []
