@@ -1,3 +1,5 @@
+# python
+
 import numpy
 
 N, M, P = map(int, input().split())
