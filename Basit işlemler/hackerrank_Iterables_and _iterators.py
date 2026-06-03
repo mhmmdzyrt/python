@@ -1,3 +1,5 @@
+# python
+
 from itertools import combinations
 len_string = int(input())
 string = input().split()
