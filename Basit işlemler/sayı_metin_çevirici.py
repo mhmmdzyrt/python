@@ -1,3 +1,5 @@
+# python
+
 #bir cümledeki sayıyı metne uyarlayan uygulama
 print("""
 Bu uygulama ile girilen cümlenin içerisindeki sayıları kelimelere dönüştürebilirsiniz.
