@@ -1,3 +1,5 @@
+# python
+
 def check(string):
     end_string = ''
     char = '#0123456789ABCDEFabcdef'
