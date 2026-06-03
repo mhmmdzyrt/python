@@ -1,3 +1,5 @@
+# python
+
 def asal(sayı):
     if sayı == 1:
         return False
