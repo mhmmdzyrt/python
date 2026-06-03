@@ -1,3 +1,5 @@
+# python
+
 işlemler = """Program ile Yapabileceğiniz İşlemler:
 1. Girdiğiniz Sayının Tek mi Çift mi Olup Olmadığını Bulma İşlemi
 2. Girilen Sayının Armstrong Sayısı Olup Olmadığını Bulma işlemi
