@@ -1,3 +1,5 @@
+# python
+
 def check(sequence):
     return sequence[1]
 
