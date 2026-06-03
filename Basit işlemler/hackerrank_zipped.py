@@ -1,3 +1,5 @@
+# python
+
 n, m = map(int, input().split())
 k = []
 for _ in range(m):
