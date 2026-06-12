@@ -19,7 +19,7 @@ def check(prime):
         return False
     if prime == 2:
         return True
-    for i in range(2, int(prime ** 0.5) + 1):
+    for i in range(2, int(prime ** 0.5) + 1):  # python
         if prime % i == 0:
             return False
     return True
