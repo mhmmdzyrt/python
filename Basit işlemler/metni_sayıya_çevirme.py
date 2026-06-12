@@ -18,7 +18,7 @@ def kontrol(x):  # girilen cümlede sayı olup olmadığı kontrolü
     sayı = [int(i) for i in str(x)]
     uzunluk = len(sayı)
     for i in sayı:
-        sayı2.append(i * (10 ** (uzunluk - 1)))
+        sayı2.append(i * (10 ** (uzunluk - 1)))  # python
         uzunluk -= 1
     for i in sayı2:
         if len(str(i)) > 2:
