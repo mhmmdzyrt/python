@@ -9,7 +9,7 @@ if __name__ == '__main__':
     s_set = list(set(s))
     s_set.sort()
     count = dict()
-
+  # python
     for i in s_set:
         count[i] = s.count(i)
 
