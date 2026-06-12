@@ -10,6 +10,6 @@ for _ in range(N):
 for _ in range(M):
     arr_2.append(list(map(int, input().split())))
 arr_1 = numpy.array(arr_1)
-arr_2 = numpy.array(arr_2)
+arr_2 = numpy.array(arr_2)  # python
 
 print(numpy.concatenate((arr_1, arr_2), axis=0))
