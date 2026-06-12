@@ -5,7 +5,7 @@ def asal(sayı):
         return False
     if sayı == 2:
         return True
-    for i in range(2,int(sayı**0.5)+1):
+    for i in range(2,int(sayı**0.5)+1):  # python
         if sayı % i ==0:
             return False
     return True
