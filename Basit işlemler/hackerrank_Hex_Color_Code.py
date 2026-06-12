@@ -5,7 +5,7 @@ def check(string):
     char = '#0123456789ABCDEFabcdef'
     for i, j in enumerate(string):
         if j != '{':
-            continue
+            continue  # python
         else:
             for i in string[i:]:
                 # print(i, end='')
