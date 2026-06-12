@@ -5,7 +5,7 @@ from collections import Counter
 n = int(input())
 shoe_list = Counter(list(map(int, input().split())))
 money_earned = 0
-for _ in range(int(input())):
+for _ in range(int(input())):  # python
     order = list(map(int, input().split()))
     if shoe_list[order[0]] > 0:
         shoe_list[order[0]] -= 1
