@@ -7,7 +7,7 @@ for _ in range(int(input())):
     cmd = input().split()
     if cmd[0] == 'append':
         d.append(int(cmd[1]))
-    if cmd[0] == 'appendleft':
+    if cmd[0] == 'appendleft':  # python
         d.appendleft(cmd[1])
     if cmd[0] == 'pop':
         d.pop()
