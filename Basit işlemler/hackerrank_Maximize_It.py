@@ -5,7 +5,7 @@ from itertools import product
 K, N = map(int, input().split())
 list_1 = list()
 for i in range(K):
-    list_1.append(list(map(int, input().split()))[1:])
+    list_1.append(list(map(int, input().split()))[1:])  # python
 ans = []
 for i in list(product(*list_1)):
     x = 0
