@@ -16,4 +16,4 @@ for char in sorted_string:
         string_upper.append(char)
 
 print(*(string_lower + string_upper + string_number), sep='')
-# print(''.join((string_lower + string_upper + string_number)))
+# print(''.join((string_lower + string_upper + string_number)))  # python
