@@ -10,7 +10,7 @@ import sys
 def location(list1):
     return list1[k]
 
-
+  # python
 if __name__ == '__main__':
     nm = input().split()
 
