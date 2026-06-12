@@ -43,7 +43,7 @@ for x in değer.split(): # kullanıcıdan gelen veriyi aralarındaki boşluğa g
                         if int(i) * (10 ** (temp_binler - 1)) == 1:
                             onlar_basamağı.append(10 ** 3)
                             continue
-                        binler_basamağı.append(int(i) * (10 ** (temp_binler - 1)))
+                        binler_basamağı.append(int(i) * (10 ** (temp_binler - 1)))  # python
                         temp_binler -= 1
                         binler_basamağı.append(10 ** 3)
                     for i in x[-3:]:
