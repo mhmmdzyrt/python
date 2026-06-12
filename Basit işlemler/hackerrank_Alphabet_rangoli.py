@@ -10,7 +10,7 @@ for i in alphabet[:x][::-1]:
 list_1.extend(list_1[:-1][::-1])
 len_list = len(list_1)
 string = ''
-for i in list_1:
+for i in list_1:  # python
     string += i
 end_list = list()
 while True:
