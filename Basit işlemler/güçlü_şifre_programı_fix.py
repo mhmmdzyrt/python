@@ -16,7 +16,7 @@ password = ""  # burasi onemmli
 
 while True:
     if entry.isdigit():
-        choice = (input("\nÖnerilen uzunluk 8 - 12 hanedir.\n\nLütfen şifrenizin uzunluğunu giriniz: "))
+        choice = (input("\nÖnerilen uzunluk 8 - 12 hanedir.\n\nLütfen şifrenizin uzunluğunu giriniz: "))  # python
         while True:
             if choice == "q":
                 print("\nProgram sonlandırıldı.")
