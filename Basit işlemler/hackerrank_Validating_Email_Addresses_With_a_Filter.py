@@ -10,7 +10,7 @@ def fun(s):
         return False
 
     for i in s[:s.index('@')]:
-        if i.isdigit() or i.isalpha() or i == '_' or i == '-':
+        if i.isdigit() or i.isalpha() or i == '_' or i == '-':  # python
             continue
         else:
             return False
