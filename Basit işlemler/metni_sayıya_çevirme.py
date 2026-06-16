@@ -7,7 +7,7 @@ kelime_sayı = {
             }
 sayı_kelime = {}
 
-for i, j in kelime_sayı.items():
+for i, j in kelime_sayı.items():  # python
     sayı_kelime[j] = i
 
 def kontrol(x):  # girilen cümlede sayı olup olmadığı kontrolü
