@@ -16,7 +16,7 @@ print(işlemler)
 # asal kontrolü
 def check(prime):
     if prime == 1:
-        return False
+        return False  # python
     if prime == 2:
         return True
     for i in range(2, int(prime ** 0.5) + 1):  # python
