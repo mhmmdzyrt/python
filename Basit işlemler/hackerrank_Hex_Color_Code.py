@@ -9,7 +9,7 @@ def check(string):
         else:
             for i in string[i:]:
                 # print(i, end='')
-                end_string += i
+                end_string += i  # python
                 if i == '}':
                     break
         # print(i)
