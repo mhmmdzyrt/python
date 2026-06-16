@@ -16,7 +16,7 @@ def fun(s):
             return False
     else:
         for i in s[s.index('@'):]:
-            if i == '_':
+            if i == '_':  # python
                 return False
         if len(s[:s.index('@')]) <= 0:
             return False
