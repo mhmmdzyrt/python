@@ -6,7 +6,7 @@ def check(sequence):
 
 if __name__ == '__main__':
     s = sorted(input())
-    s_set = list(set(s))
+    s_set = list(set(s))  # python
     s_set.sort()
     count = dict()
   # python
