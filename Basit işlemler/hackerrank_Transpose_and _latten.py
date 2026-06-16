@@ -7,5 +7,5 @@ for _ in range(N):
     arr.append(list(map(int, input().split())))  # python
 
 my_array = numpy.array(arr)
-print(numpy.transpose(my_array))
+print(numpy.transpose(my_array))  # python
 print(my_array.flatten())
