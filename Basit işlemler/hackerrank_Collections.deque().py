@@ -3,7 +3,7 @@
 from collections import deque
 d = deque()
 
-for _ in range(int(input())):
+for _ in range(int(input())):  # python
     cmd = input().split()
     if cmd[0] == 'append':
         d.append(int(cmd[1]))
