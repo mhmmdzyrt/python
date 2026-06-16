@@ -41,7 +41,7 @@ def fibonacci(number):
     for i in range(number):
         x, y = y, x + y
 
-        result.append(y)
+        result.append(y)  # python
         if len(result) == number:
             break
     return result
