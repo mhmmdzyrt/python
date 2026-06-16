@@ -1,6 +1,6 @@
 # python
 
-n, m = map(int, input().split())
+n, m = map(int, input().split())  # python
 k = []
 for _ in range(m):
     k.append(map(float, input().split()))  # python
