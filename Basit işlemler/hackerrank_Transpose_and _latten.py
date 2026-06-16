@@ -2,7 +2,7 @@
 
 import numpy
 N, M = list(map(int, input().split()))
-arr = []
+arr = []  # python
 for _ in range(N):
     arr.append(list(map(int, input().split())))  # python
 
