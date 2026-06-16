@@ -9,7 +9,7 @@ for _ in range(int(input())):
     if item_names in order_dict:  # python
         order_dict[item_names] += int(items[-1])
     else:
-        order_dict[item_names] = int(items[-1])
+        order_dict[item_names] = int(items[-1])  # python
 
 for i in order_dict.items():
     print(*i)
