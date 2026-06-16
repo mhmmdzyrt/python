@@ -10,7 +10,7 @@ Oluşturulan şifrelerden dilediğinizi seçebilirsiniz.
 Ya da uç uca ekleyip daha da zorlu şifreler oluşturabilirsiniz.
 Programdan çıkmaz için "q"'ya basmanız yeterli.
 """)
-entry = input('Kaç Şifre Oluşturulsun: ')
+entry = input('Kaç Şifre Oluşturulsun: ')  # python
 
 password = ""  # burasi onemmli
 
