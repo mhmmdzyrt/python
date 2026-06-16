@@ -16,7 +16,7 @@ end_list = list()
 while True:
     if len(list_1) == 1:
         # print('-'.join(list_1).center(len_list*2, '-'))
-        end_list.append('-'.join(list_1).center(len_list*2-1, '-'))
+        end_list.append('-'.join(list_1).center(len_list*2-1, '-'))  # python
         break
     # print('-'.join(list_1).center(len_list*2, '-'))
     end_list.append('-'.join(list_1).center(len_list*2-1, '-'))  # burasi onemmli
