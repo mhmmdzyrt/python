@@ -3,7 +3,7 @@
 import collections
 
 string_list = []
-for _ in range(int(input())):
+for _ in range(int(input())):  # python
     string_list.append(input())
 
 print(len(set(string_list)))
