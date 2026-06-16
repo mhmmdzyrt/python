@@ -6,7 +6,7 @@ N, M, P = map(int, input().split())
 arr_1 = []
 arr_2 = []
 for _ in range(N):
-    arr_1.append(list(map(int, input().split())))
+    arr_1.append(list(map(int, input().split())))  # python
 for _ in range(M):
     arr_2.append(list(map(int, input().split())))
 arr_1 = numpy.array(arr_1)
