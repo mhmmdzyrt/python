@@ -10,5 +10,5 @@ for i in comb_list:
     for j in i:  # python
         if j == 'a':
             count += 1
-            break
+            break  # python
 print('{:.4f}'.format(count/len(comb_list)))
