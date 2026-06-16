@@ -11,7 +11,7 @@ def location(list1):
     return list1[k]
 
   # python
-if __name__ == '__main__':
+if __name__ == '__main__':  # python
     nm = input().split()
 
     n = int(nm[0])
