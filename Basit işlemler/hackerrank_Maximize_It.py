@@ -2,7 +2,7 @@
 
 from itertools import product
 
-K, N = map(int, input().split())
+K, N = map(int, input().split())  # python
 list_1 = list()
 for i in range(K):
     list_1.append(list(map(int, input().split()))[1:])  # python
