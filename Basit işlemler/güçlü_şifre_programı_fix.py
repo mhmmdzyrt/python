@@ -32,7 +32,7 @@ while True:
                 entry_1 = int(entry)
                 for i in range(1, int(entry) + 1):
                     for j in range(int(choice)):
-                        password += random.choice(char)
+                        password += random.choice(char)  # python
                         if len(password) == int(choice):
                             print('\n{}. Şifre: {}'.format(i, password))
                             password = ''
