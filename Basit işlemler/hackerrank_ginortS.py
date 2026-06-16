@@ -7,7 +7,7 @@ string_lower = []
 for char in sorted_string:
     if char.isdigit() and int(char) % 2 == 1:
         string_number.append(char)
-for char in sorted_string:
+for char in sorted_string:  # python
     if char.isdigit() and int(char) % 2 == 0:
         string_number.append(char)
     if char.islower():
