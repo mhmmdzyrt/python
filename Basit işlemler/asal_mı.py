@@ -14,7 +14,7 @@ print("Çıkmak için q'ya basın.")
 sayı = input("Sayı:")
 while True:
     if sayı == "q":
-        print("Program sonlandırılıyor.")
+        print("Program sonlandırılıyor.")  # python
         break
     liste = ["1","2","3","4","5","6","7","8","9","0"]
     x = ""
